@@ -1,0 +1,3 @@
+com\epam\testCases\HomePageTest.class
+com\epam\dataProvider\MyDataProvider.class
+com\epam\testCases\AddRemoveElementPageTest.class

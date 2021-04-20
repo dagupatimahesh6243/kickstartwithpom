@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="1" name="TestSuite" time="639.923" errors="0" skipped="5">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="kickstart"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/kickstart/6/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="38117f163ac81168"/>
+    <property name="POM_ARTIFACTID" value="KickStartWithPom"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="KickStartWithPom"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="user.name" value="EPINHYDW0767$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="kickstart"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/kickstart/6/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="EPINHYDW0767$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="6"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/kickstart/6/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/kickstart/6/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/kickstart/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_281"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="EPINHYDW0767"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="org.example"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-kickstart-6"/>
+    <property name="JENKINS_SERVER_COOKIE" value="38117f163ac81168"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.class.path" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 65271"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/kickstart/6/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Mahesh_Daggupati\Downloads\KickStartWithPom"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/kickstart/"/>
+    <property name="USERDOMAIN" value="PRINCETON"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="6"/>
+    <property name="BASE" value="C:\Program Files\Jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\kickstart@tmp"/>
+    <property name="WORKSPACE" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\kickstart"/>
+    <property name="maven3.interceptor.common" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="com.epam.testCases.AddRemoveElementPageTest" name="setUp" time="639.734">
+    <failure message="session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.128)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPINHYDW0767&apos;, ip: &apos;192.168.0.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: MyChromeWebDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0021B963+483]
+	GetHandleVerifier [0x0021B941+449]
+	GetHandleVerifier [0x005C3308+3832712]
+	GetHandleVerifier [0x005B778C+3784716]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BFB21+3818401]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BDF9C+3811356]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BC392+3804178]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BB655+3800789]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005B2F46+3766214]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B6543+3780035]
+	GetHandleVerifier [0x005B6337+3779511]
+	GetHandleVerifier [0x005C4540+3837376]
+	GetHandleVerifier [0x005FF4BC+4078908]
+	GetHandleVerifier [0x005FE56C+4074988]
+	GetHandleVerifier [0x005FB2EB+4062059]
+	GetHandleVerifier [0x005DED14+3945876]
+	GetHandleVerifier [0x005DFBCE+3949646]
+	GetHandleVerifier [0x005DFB59+3949529]
+	Ordinal0 [0x001DB5CC+46540]
+	Ordinal0 [0x001D9F53+40787]
+	Ordinal0 [0x001D9B12+39698]
+	GetHandleVerifier [0x004E1468+2907368]
+	GetHandleVerifier [0x003271EE+1096302]
+	GetHandleVerifier [0x002E3E8D+821005]
+	GetHandleVerifier [0x002E396B+819691]
+	GetHandleVerifier [0x002E3881+819457]
+	GetHandleVerifier [0x0030F463+998627]
+	BaseThreadInitThunk [0x754BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77587C7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77587C4E+238]
+" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.128)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPINHYDW0767&apos;, ip: &apos;192.168.0.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: MyChromeWebDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0021B963+483]
+	GetHandleVerifier [0x0021B941+449]
+	GetHandleVerifier [0x005C3308+3832712]
+	GetHandleVerifier [0x005B778C+3784716]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BFB21+3818401]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BDF9C+3811356]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BC392+3804178]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BB655+3800789]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005B2F46+3766214]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B6543+3780035]
+	GetHandleVerifier [0x005B6337+3779511]
+	GetHandleVerifier [0x005C4540+3837376]
+	GetHandleVerifier [0x005FF4BC+4078908]
+	GetHandleVerifier [0x005FE56C+4074988]
+	GetHandleVerifier [0x005FB2EB+4062059]
+	GetHandleVerifier [0x005DED14+3945876]
+	GetHandleVerifier [0x005DFBCE+3949646]
+	GetHandleVerifier [0x005DFB59+3949529]
+	Ordinal0 [0x001DB5CC+46540]
+	Ordinal0 [0x001D9F53+40787]
+	Ordinal0 [0x001D9B12+39698]
+	GetHandleVerifier [0x004E1468+2907368]
+	GetHandleVerifier [0x003271EE+1096302]
+	GetHandleVerifier [0x002E3E8D+821005]
+	GetHandleVerifier [0x002E396B+819691]
+	GetHandleVerifier [0x002E3881+819457]
+	GetHandleVerifier [0x0030F463+998627]
+	BaseThreadInitThunk [0x754BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77587C7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77587C4E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.epam.drivers.MyChromeWebDriver.openChrome(MyChromeWebDriver.java:17)
+	at com.epam.base.TestBase.initialization(TestBase.java:34)
+	at com.epam.testCases.AddRemoveElementPageTest.setUp(AddRemoveElementPageTest.java:19)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5ecddf8f
+</system-out>
+    <system-err>Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 45442
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1618827797.100][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+[1618828398.576][SEVERE]: Timed out receiving message from renderer: 600.000
+</system-err>
+  </testcase>
+  <testcase classname="com.epam.testCases.AddRemoveElementPageTest" name="displayAddElementTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testCases.AddRemoveElementPageTest" name="clickAddElementTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testCases.AddRemoveElementPageTest" name="displayDeleteElement" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testCases.AddRemoveElementPageTest" name="clickDeleteElementTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testCases.AddRemoveElementPageTest" name="tearDown" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testCases.HomePageTest" name="checkAddRemove" time="0.109"/>
+  <testcase classname="com.epam.testCases.HomePageTest" name="checkChallengeDom" time="0.074"/>
+</testsuite>

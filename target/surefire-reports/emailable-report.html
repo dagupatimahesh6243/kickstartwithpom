@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">2</td><td class="num attn">4</td><td class="num">0</td><td class="num">0</td><td class="num">641,909</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.epam.testCases.AddRemoveElementPageTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1618827768547</td><td rowspan="1">630314</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.epam.testCases.AddRemoveElementPageTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1618828398938</td><td rowspan="1">-1618828398938</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">com.epam.testCases.AddRemoveElementPageTest</td><td><a href="#m2">clickAddElementTest</a></td><td rowspan="1">1618828398932</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">clickDeleteElementTest</a></td><td rowspan="1">1618828398936</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">displayAddElementTest</a></td><td rowspan="1">1618828398923</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">displayDeleteElement</a></td><td rowspan="1">1618828398934</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.epam.testCases.HomePageTest</td><td><a href="#m6">checkAddRemove</a></td><td rowspan="1">1618828409168</td><td rowspan="1">103</td></tr><tr class="passedeven"><td><a href="#m7">checkChallengeDom</a></td><td rowspan="1">1618828409274</td><td rowspan="1">76</td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">com.epam.testCases.AddRemoveElementPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.128)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPINHYDW0767&apos;, ip: &apos;192.168.0.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: MyChromeWebDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0021B963+483]
+	GetHandleVerifier [0x0021B941+449]
+	GetHandleVerifier [0x005C3308+3832712]
+	GetHandleVerifier [0x005B778C+3784716]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BFB21+3818401]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BDF9C+3811356]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BC392+3804178]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BB655+3800789]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005B2F46+3766214]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B6543+3780035]
+	GetHandleVerifier [0x005B6337+3779511]
+	GetHandleVerifier [0x005C4540+3837376]
+	GetHandleVerifier [0x005FF4BC+4078908]
+	GetHandleVerifier [0x005FE56C+4074988]
+	GetHandleVerifier [0x005FB2EB+4062059]
+	GetHandleVerifier [0x005DED14+3945876]
+	GetHandleVerifier [0x005DFBCE+3949646]
+	GetHandleVerifier [0x005DFB59+3949529]
+	Ordinal0 [0x001DB5CC+46540]
+	Ordinal0 [0x001D9F53+40787]
+	Ordinal0 [0x001D9B12+39698]
+	GetHandleVerifier [0x004E1468+2907368]
+	GetHandleVerifier [0x003271EE+1096302]
+	GetHandleVerifier [0x002E3E8D+821005]
+	GetHandleVerifier [0x002E396B+819691]
+	GetHandleVerifier [0x002E3881+819457]
+	GetHandleVerifier [0x0030F463+998627]
+	BaseThreadInitThunk [0x754BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77587C7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77587C4E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.epam.drivers.MyChromeWebDriver.openChrome(MyChromeWebDriver.java:17)
+	at com.epam.base.TestBase.initialization(TestBase.java:34)
+	at com.epam.testCases.AddRemoveElementPageTest.setUp(AddRemoveElementPageTest.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.epam.testCases.AddRemoveElementPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.epam.testCases.AddRemoveElementPageTest#clickAddElementTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.128)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPINHYDW0767&apos;, ip: &apos;192.168.0.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: MyChromeWebDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0021B963+483]
+	GetHandleVerifier [0x0021B941+449]
+	GetHandleVerifier [0x005C3308+3832712]
+	GetHandleVerifier [0x005B778C+3784716]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BFB21+3818401]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BDF9C+3811356]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BC392+3804178]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BB655+3800789]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005B2F46+3766214]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B6543+3780035]
+	GetHandleVerifier [0x005B6337+3779511]
+	GetHandleVerifier [0x005C4540+3837376]
+	GetHandleVerifier [0x005FF4BC+4078908]
+	GetHandleVerifier [0x005FE56C+4074988]
+	GetHandleVerifier [0x005FB2EB+4062059]
+	GetHandleVerifier [0x005DED14+3945876]
+	GetHandleVerifier [0x005DFBCE+3949646]
+	GetHandleVerifier [0x005DFB59+3949529]
+	Ordinal0 [0x001DB5CC+46540]
+	Ordinal0 [0x001D9F53+40787]
+	Ordinal0 [0x001D9B12+39698]
+	GetHandleVerifier [0x004E1468+2907368]
+	GetHandleVerifier [0x003271EE+1096302]
+	GetHandleVerifier [0x002E3E8D+821005]
+	GetHandleVerifier [0x002E396B+819691]
+	GetHandleVerifier [0x002E3881+819457]
+	GetHandleVerifier [0x0030F463+998627]
+	BaseThreadInitThunk [0x754BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77587C7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77587C4E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.epam.drivers.MyChromeWebDriver.openChrome(MyChromeWebDriver.java:17)
+	at com.epam.base.TestBase.initialization(TestBase.java:34)
+	at com.epam.testCases.AddRemoveElementPageTest.setUp(AddRemoveElementPageTest.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.epam.testCases.AddRemoveElementPageTest#clickDeleteElementTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.128)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPINHYDW0767&apos;, ip: &apos;192.168.0.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: MyChromeWebDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0021B963+483]
+	GetHandleVerifier [0x0021B941+449]
+	GetHandleVerifier [0x005C3308+3832712]
+	GetHandleVerifier [0x005B778C+3784716]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BFB21+3818401]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BDF9C+3811356]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BC392+3804178]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BB655+3800789]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005B2F46+3766214]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B6543+3780035]
+	GetHandleVerifier [0x005B6337+3779511]
+	GetHandleVerifier [0x005C4540+3837376]
+	GetHandleVerifier [0x005FF4BC+4078908]
+	GetHandleVerifier [0x005FE56C+4074988]
+	GetHandleVerifier [0x005FB2EB+4062059]
+	GetHandleVerifier [0x005DED14+3945876]
+	GetHandleVerifier [0x005DFBCE+3949646]
+	GetHandleVerifier [0x005DFB59+3949529]
+	Ordinal0 [0x001DB5CC+46540]
+	Ordinal0 [0x001D9F53+40787]
+	Ordinal0 [0x001D9B12+39698]
+	GetHandleVerifier [0x004E1468+2907368]
+	GetHandleVerifier [0x003271EE+1096302]
+	GetHandleVerifier [0x002E3E8D+821005]
+	GetHandleVerifier [0x002E396B+819691]
+	GetHandleVerifier [0x002E3881+819457]
+	GetHandleVerifier [0x0030F463+998627]
+	BaseThreadInitThunk [0x754BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77587C7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77587C4E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.epam.drivers.MyChromeWebDriver.openChrome(MyChromeWebDriver.java:17)
+	at com.epam.base.TestBase.initialization(TestBase.java:34)
+	at com.epam.testCases.AddRemoveElementPageTest.setUp(AddRemoveElementPageTest.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.epam.testCases.AddRemoveElementPageTest#displayAddElementTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.128)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPINHYDW0767&apos;, ip: &apos;192.168.0.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: MyChromeWebDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0021B963+483]
+	GetHandleVerifier [0x0021B941+449]
+	GetHandleVerifier [0x005C3308+3832712]
+	GetHandleVerifier [0x005B778C+3784716]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BFB21+3818401]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BDF9C+3811356]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BC392+3804178]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BB655+3800789]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005B2F46+3766214]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B6543+3780035]
+	GetHandleVerifier [0x005B6337+3779511]
+	GetHandleVerifier [0x005C4540+3837376]
+	GetHandleVerifier [0x005FF4BC+4078908]
+	GetHandleVerifier [0x005FE56C+4074988]
+	GetHandleVerifier [0x005FB2EB+4062059]
+	GetHandleVerifier [0x005DED14+3945876]
+	GetHandleVerifier [0x005DFBCE+3949646]
+	GetHandleVerifier [0x005DFB59+3949529]
+	Ordinal0 [0x001DB5CC+46540]
+	Ordinal0 [0x001D9F53+40787]
+	Ordinal0 [0x001D9B12+39698]
+	GetHandleVerifier [0x004E1468+2907368]
+	GetHandleVerifier [0x003271EE+1096302]
+	GetHandleVerifier [0x002E3E8D+821005]
+	GetHandleVerifier [0x002E396B+819691]
+	GetHandleVerifier [0x002E3881+819457]
+	GetHandleVerifier [0x0030F463+998627]
+	BaseThreadInitThunk [0x754BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77587C7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77587C4E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.epam.drivers.MyChromeWebDriver.openChrome(MyChromeWebDriver.java:17)
+	at com.epam.base.TestBase.initialization(TestBase.java:34)
+	at com.epam.testCases.AddRemoveElementPageTest.setUp(AddRemoveElementPageTest.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.epam.testCases.AddRemoveElementPageTest#displayDeleteElement</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=89.0.4389.128)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPINHYDW0767&apos;, ip: &apos;192.168.0.152&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: MyChromeWebDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0021B963+483]
+	GetHandleVerifier [0x0021B941+449]
+	GetHandleVerifier [0x005C3308+3832712]
+	GetHandleVerifier [0x005B778C+3784716]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BFB21+3818401]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BDF9C+3811356]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BC392+3804178]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005BB655+3800789]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B74B2+3783986]
+	GetHandleVerifier [0x005B6A47+3781319]
+	GetHandleVerifier [0x005B6E36+3782326]
+	GetHandleVerifier [0x005B6765+3780581]
+	GetHandleVerifier [0x005B2F46+3766214]
+	GetHandleVerifier [0x005B6721+3780513]
+	GetHandleVerifier [0x005B6543+3780035]
+	GetHandleVerifier [0x005B6337+3779511]
+	GetHandleVerifier [0x005C4540+3837376]
+	GetHandleVerifier [0x005FF4BC+4078908]
+	GetHandleVerifier [0x005FE56C+4074988]
+	GetHandleVerifier [0x005FB2EB+4062059]
+	GetHandleVerifier [0x005DED14+3945876]
+	GetHandleVerifier [0x005DFBCE+3949646]
+	GetHandleVerifier [0x005DFB59+3949529]
+	Ordinal0 [0x001DB5CC+46540]
+	Ordinal0 [0x001D9F53+40787]
+	Ordinal0 [0x001D9B12+39698]
+	GetHandleVerifier [0x004E1468+2907368]
+	GetHandleVerifier [0x003271EE+1096302]
+	GetHandleVerifier [0x002E3E8D+821005]
+	GetHandleVerifier [0x002E396B+819691]
+	GetHandleVerifier [0x002E3881+819457]
+	GetHandleVerifier [0x0030F463+998627]
+	BaseThreadInitThunk [0x754BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77587C7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77587C4E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.epam.drivers.MyChromeWebDriver.openChrome(MyChromeWebDriver.java:17)
+	at com.epam.base.TestBase.initialization(TestBase.java:34)
+	at com.epam.testCases.AddRemoveElementPageTest.setUp(AddRemoveElementPageTest.java:19)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.epam.testCases.HomePageTest#checkAddRemove</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.epam.testCases.HomePageTest#checkChallengeDom</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

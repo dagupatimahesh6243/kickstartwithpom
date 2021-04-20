@@ -1,0 +1,12 @@
+com\epam\drivers\MyIEWebDriver.class
+com\epam\constants\MyConstants.class
+com\epam\drivers\MyChromeWebDriver.class
+com\epam\pages\SmokeTests\HomePageSmoke.class
+com\epam\base\TestBase.class
+com\epam\util\TestUtil.class
+com\epam\drivers\MyFireFoxWebDriver.class
+com\epam\exceptions\BrowserNotFoundException.class
+com\epam\pages\HomePage.class
+com\epam\pages\ChallengingDomPage.class
+com\epam\pages\AddRemoveElementPage.class
+com\epam\enums\Browsers.class
